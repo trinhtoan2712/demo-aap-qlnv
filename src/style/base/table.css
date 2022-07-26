@@ -1,0 +1,45 @@
+@import url(paging.css);
+.m-table {
+    width: 100%;
+    border: 1px;
+    border-collapse: collapse;
+}
+
+table thead {
+    height: 50px;
+}
+
+table.m-table tr {
+    border-bottom: 1px solid #bbb;
+    height: 40px;
+    cursor: pointer;
+}
+
+table.m-table tr td,
+th {
+    padding: 0 10px;
+}
+
+table.m-table tr td:first-child,
+tr th:first-child {
+    padding-left: 16px;
+}
+
+table.m-table tr td:last-child,
+tr th:last-child {
+    padding-right: 16px;
+}
+
+table.m-table tbody tr:hover {
+    background-color: #E9EBEE;
+}
+
+table.m-table tbody tr.m-row-selected {
+    background-color: #E3F3EE;
+}
+
+table thead th {
+    top: 0;
+    position: sticky;
+    background-color: #fff;
+}

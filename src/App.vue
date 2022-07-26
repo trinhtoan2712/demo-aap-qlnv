@@ -1,30 +1,24 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <TheHeader></TheHeader>
+  <div class="frame">
+    <TheSidebar></TheSidebar>
+    <TheContent></TheContent>
+  </div>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import TheHeader from './components/layout/TheHeader.vue'
+import TheSidebar from './components/layout/TheSidebar.vue'
+import TheContent from './components/layout/TheContent.vue'
 
-nav {
-  padding: 30px;
+export default {
+  name: 'App',
+  components: {
+    TheHeader,TheSidebar,TheContent
+  }
 }
+</script>
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
+<style scoped>
+@import url('./style/main/main.css')
 </style>

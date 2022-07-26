@@ -1,0 +1,49 @@
+body {
+    font-family: CUKCUK Fonts;
+    color: #000000;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+.m-label-field {
+    font-family: MISA Fonts Medium;
+}
+
+.title {
+    font-family: MISA Fonts;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.heading {
+    font-family: MISA Font Bold;
+    font-size: 24px;
+}
+
+.frame{
+    display: flex;
+}
+
+@font-face {
+    font-family: CUKCUK Fonts;
+    src: url(../../assets/font/GoogleSans-Regular.otf);
+}
+
+@font-face {
+    font-family: CUKCUK Fonts Bold;
+    src: url(../../assets/font/GoogleSans-Bold.otf);
+}
+
+@font-face {
+    font-family: CUKCUK Fonts Italic;
+    src: url(../../assets/font/GoogleSans-Italic.otf);
+}
+
+@font-face {
+    font-family: CUKCUK Fonts Medium;
+    src: url(../../assets/font/GoogleSans-Medium.otf);
+}

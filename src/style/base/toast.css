@@ -1,0 +1,88 @@
+.m-toast-box {
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+}
+
+.m-toast-msg {
+    display: flex;
+    align-items: center;
+    min-height: 48px;
+    border-radius: 4px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.854);
+    padding: 8px;
+    width: 250px;
+    margin-bottom: 8px;
+    background-color: #fff;
+}
+
+.m-toast-msg .m-toast-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    border-radius: 50%;
+    line-height: 24px;
+    text-align: center;
+}
+
+.m-toast-msg .m-toast-text {
+    width: 100%;
+}
+
+.m-toast-msg .m-toast-close {
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: .5;
+}
+
+.m-toast-msg .m-toast-close:hover {
+    opacity: 1;
+}
+
+.m-toast-msg.m-toast-icon-error .m-toast-icon {
+    background-color: #FF4747;
+    font-size: 13px;
+    color: #fff;
+}
+
+.m-toast-msg.m-toast-icon-error .m-toast-close {
+    color: #FF4747;
+}
+
+.m-toast-msg.m-toast-icon-warning .m-toast-icon {
+    background-color: #ffb300;
+    font-size: 24px;
+    color: #fff;
+}
+
+.m-toast-msg.m-toast-icon-warning .m-toast-close {
+    color: #ffb300;
+}
+
+
+/* Success */
+
+.m-toast-msg.m-toast-icon-success .m-toast-icon {
+    background-color: #00925f;
+    font-size: 24px;
+    color: #fff;
+}
+
+.m-toast-msg.m-toast-icon-success .m-toast-close {
+    color: #00925f;
+}
+
+
+/* Info */
+
+.m-toast-msg.m-toast-icon-info .m-toast-icon {
+    background-color: #0077ff;
+    font-size: 24px;
+    color: #fff;
+}
+
+.m-toast-msg.m-toast-icon-info .m-toast-close {
+    color: #0077ff;
+}

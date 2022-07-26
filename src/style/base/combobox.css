@@ -1,0 +1,13 @@
+.combobox {
+    height: 40px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #bbbbbb;
+    min-width: 100px;
+    outline: none;
+}
+
+.combobox:hover,
+.combobox:focus {
+    border-color: #019160;
+}

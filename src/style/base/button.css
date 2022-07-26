@@ -1,0 +1,35 @@
+.button {
+    height: 40px;
+    border-radius: 4px;
+    background-color: #019160;
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: #ffffff;
+    border: unset;
+    min-width: 100px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #2FBE8E;
+}
+
+.button:active {
+    background-color: #01B075;
+}
+
+
+/*
+ * BUTTON ICON
+ */
+
+.button-icon {
+    padding-left: 40px;
+    padding-right: 16px;
+    text-align: left;
+    background-repeat: no-repeat;
+    background-position-x: 16px;
+    background-position-y: center;
+    background-size: 16px;
+}

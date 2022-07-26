@@ -1,0 +1,59 @@
+.m-navbar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 226px;
+    height: 100%;
+    padding-left: 16px;
+    border-right: 1px solid #bbb;
+}
+
+.m-navbar .m-navbar-item {
+    align-items: center;
+    display: flex;
+    height: 44px;
+    width: 100%;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.m-navbar .m-navbar-item.m-navbar-item-selected,
+.router-link-active {
+    background-color: #019160 !important;
+    color: #fff;
+}
+
+.m-navbar .m-navbar-item:hover {
+    background-color: #e5e5e5;
+    color: #000000;
+}
+
+.m-navbar .m-navbar-item .m-navbar-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px;
+}
+
+.icon-dashboard {
+    background-image: url(../../assets/icon/dashboard.png);
+}
+
+.icon-report {
+    background-image: url(../../assets/icon/report.png);
+}
+
+.icon-shopping {
+    background-image: url(../../assets/icon/dashboard.png);
+}
+
+.icon-employee {
+    background-image: url(../../assets/icon/dic-employee.png);
+}
+
+.icon-setting {
+    background-image: url(../../assets/icon/setting.png);
+}
